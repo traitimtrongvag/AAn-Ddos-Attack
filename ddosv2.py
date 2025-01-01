@@ -159,7 +159,7 @@ def worker(url, duration, requests_per_milli):
         update_title(int(pps), requests_per_milli)
 def main():
     os.system('cls' if os.name == 'nt' else 'clear')
-    Write.Print(f"""          ⠀⠀⠀⠀⠀⠀⠀⠀                ⢀⣀⣠⣤⣤⣤⣤⣄⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+    Write_Print(f"""          ⠀⠀⠀⠀⠀⠀⠀⠀                ⢀⣀⣠⣤⣤⣤⣤⣄⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀                         ⠀⠀⠀⢀⣠⣶⣿⣿⣿⣿⡿⠃⠘⢿⣿⣿⣿⣿⣶⣄⡀⠀⠀⠀⠀⠀
 ⠀⠀                         ⠀⢀⣴⣿⣿⣿⣿⣿⣿⡿⠁⠀⠀⠈⢿⣿⣿⣿⣿⣿⣿⣦⡀⠀⠀⠀
 ⠀                         ⠀⣰⣿⣿⣿⣿⣿⣿⣿⣿⠃⠀⠀⠀⠀⠘⣿⣿⣿⣿⣿⣿⣿⣿⣆⠀⠀
