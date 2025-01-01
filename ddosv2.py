@@ -145,7 +145,7 @@ def send_request(url):
         print(Colorate.Diagonal(Colors.red_to_white,f"Sever Khong Phan Hoi | Status: 500 ERROR WEBSITE SERVER IS DOWN"))
 def Write_Print(text, color, interval):
     for char in text:
-        console.print(char, style=color, end="")
+        Console.print(char, style=color, end="")
         time.sleep(interval)
     print() 
 def worker(url, duration, requests_per_milli):
