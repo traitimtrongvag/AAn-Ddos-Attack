@@ -43,3 +43,5 @@ nó không được thiết kế hoặc xây dựng cho mục đích đó. Lỗi
 Chỉ sử dụng nó với mục đích giáo dục!
 Vui lòng kiểm tra các quy định pháp lý tại quốc gia của bạn trước khi sử dụng.
 Chúng tôi không chịu bất kỳ trách nhiệm nào về những gì bạn làm với chương trình này.
+# Picture
+![Screenshot](https://github.com/anan1412kdz/Pic/blob/main/Screenshot_20241230_231009_Termux.jpg?raw=true)
