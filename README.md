@@ -46,7 +46,7 @@ Chúng tôi không chịu bất kỳ trách nhiệm nào về những gì bạn 
 # Setup
 Termux 
 ```bash
-git clone https://github.com/anan1412kdz/AAn-Ddos-Attack.git && cd AAn-Ddos-Attack && pkg update && pkg install git python -y && pip install pystyle rich
+git clone https://github.com/anan1412kdz/AAn-Ddos-Attack.git && cd AAn-Ddos-Attack && pkg update && pkg install git python -y && pip install pystyle rich && python ddosv2.py
 ```
 Linux
 ```bash
